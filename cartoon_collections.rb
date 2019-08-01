@@ -10,10 +10,9 @@ def long_planeteer_calls(array)
   array.each do |word|
     if word.length > 4
       puts "true"
-    else
-      puts "false"
     end
   end
+  puts "false"
 end
 
 def find_the_cheese# code an argument here
